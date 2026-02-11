@@ -402,56 +402,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7583680398464691686, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 514058997}
-    - targetCorrespondingSourceObject: {fileID: 8514450445642843351, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 514058999}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
---- !u!1 &514058996 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7583680398464691686, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
+--- !u!114 &514058996 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 403644293621268372, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
   m_PrefabInstance: {fileID: 514058995}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &514058997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514058996}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c323f2f10301ba4ea7a0193dab5c1e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f3293251b70b67419436b2debdab433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stat:
-    name: 
-    degat: 0
-    pv: 0
-    necrose: 3
---- !u!1 &514058998 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8514450445642843351, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
-  m_PrefabInstance: {fileID: 514058995}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &514058999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514058998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e159fde29ccae1b43a2c7c7c5ce332bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatTorse:
-    name: Torse
-    pv: 5
 --- !u!1 &579352414
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +723,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1956518677}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 514058996}
+        m_TargetAssemblyTypeName: S_Player, Assembly-CSharp
+        m_MethodName: ChangeTurn
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1956518676}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1956518677
 MonoBehaviour:
   m_ObjectHideFlags: 0

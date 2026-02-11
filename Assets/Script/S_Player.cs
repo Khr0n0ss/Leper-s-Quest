@@ -18,7 +18,15 @@ public class S_Player : MonoBehaviour
     public void ChangeTurn(Button changeInteraction)
     {
         if(changeInteraction.interactable)
-            changeInteraction.interactable = true;  
-        else changeInteraction.interactable = false;
+        {
+            changeInteraction.interactable = false; 
+            S_TurnBase _button = FindAnyObjectByType<S_TurnBase>();
+
+            StartCoroutine(_button.endTurn());
+        }
+        else 
+        {
+            changeInteraction.interactable = true;
+        }
     }
 }
