@@ -26,6 +26,7 @@ public class S_TurnBase : MonoBehaviour
 
     public IEnumerator endTurn()
     {
+        FindAnyObjectByType<S_Player>().CanAttack();
         yield return new WaitForSeconds(2f);
         _nextButton.interactable = true;
     }

@@ -15,5 +15,5 @@ MonoBehaviour:
   MembreName: 
   Description: 
   "d\xE9g\xE2ts": 0
-  PVMax: 0
+  PVMax: 60
   sprite: {fileID: 0}
