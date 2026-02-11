@@ -8,4 +8,5 @@ public class Membre_Script : ScriptableObject
     public int dégâts;
     public int PVMax;
     public Sprite sprite;
+    private bool isNain;
 }
