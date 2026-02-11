@@ -17,19 +17,12 @@ public class S_Player : MonoBehaviour
         else 
         {
             changeInteraction.interactable = true;
-            CanAttack();
+            _AtkButton.interactable = false;
         }
     }
 
     public void CanAttack()
     {
-        if (_AtkButton.interactable)
-        {
-            _AtkButton.interactable = false;
-        }
-        else
-        {
-            _AtkButton.interactable = true;
-        }
+        _AtkButton.interactable = true;
     }
 }
