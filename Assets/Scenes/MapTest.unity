@@ -264,6 +264,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 403644293621268372, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
+      propertyPath: _AtkButton
+      value: 
+      objectReference: {fileID: 934355956}
     - target: {fileID: 1419501917167344408, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.57
@@ -306,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5662220054410704554, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7368069824351911619, guid: 7fb021764e6664343b4bcea05d52f784, type: 3}
       propertyPath: m_Name
@@ -411,6 +415,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &934355956 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3701775833261871501, guid: 11a9ce7a74f99b843b1aef695a5a12be, type: 3}
+  m_PrefabInstance: {fileID: 5121490197728483492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1956518676 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3903428228688743093, guid: 522d11c878ab6bb4882a4c61c2c5d278, type: 3}
