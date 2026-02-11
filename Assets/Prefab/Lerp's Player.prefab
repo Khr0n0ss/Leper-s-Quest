@@ -601,6 +601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419501917167344408}
+  - component: {fileID: 403644293621268372}
   m_Layer: 0
   m_Name: Lerp's Player
   m_TagString: Untagged
@@ -629,6 +630,18 @@ Transform:
   - {fileID: 3509474949910045291}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403644293621268372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368069824351911619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3293251b70b67419436b2debdab433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7583680398464691686
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +654,7 @@ GameObject:
   - component: {fileID: 1951912833180033912}
   - component: {fileID: 1066712136691878143}
   - component: {fileID: 5662220054410704554}
+  - component: {fileID: 7848829881785803636}
   m_Layer: 0
   m_Name: LeftArm
   m_TagString: Untagged
@@ -777,6 +791,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 7583680398464691686}
+--- !u!114 &7848829881785803636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583680398464691686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c323f2f10301ba4ea7a0193dab5c1e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stat:
+    name: 
+    degat: 0
+    pv: 0
+    necrose: 3
 --- !u!1 &8514450445642843351
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +820,7 @@ GameObject:
   - component: {fileID: 9125119419201429308}
   - component: {fileID: 477917235631255108}
   - component: {fileID: 8999133008170441621}
+  - component: {fileID: 1971866551703069390}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -925,3 +957,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 8514450445642843351}
+--- !u!114 &1971866551703069390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514450445642843351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e159fde29ccae1b43a2c7c7c5ce332bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatTorse:
+    name: Torse
+    pv: 5
