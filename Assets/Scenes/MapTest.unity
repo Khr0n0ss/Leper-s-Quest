@@ -524,6 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerTurn: 0
+  _nextButton: {fileID: 1956518676}
 --- !u!4 &852790081
 Transform:
   m_ObjectHideFlags: 0
