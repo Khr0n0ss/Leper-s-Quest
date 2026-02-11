@@ -2,11 +2,19 @@
 using UnityEngine;
 public class Clickable : MonoBehaviour
 {
-    public ScriptableObject self;
+    public Membre_Stat self;
     public S_TurnBase _interaction;
+
+    SpriteRenderer sprite;
 
     void Start()
     {
+        // sprite = GetComponent<SpriteRenderer>();
+
+        // sprite.sprite = self.sprite;
+
+        
+
         _interaction = FindAnyObjectByType<S_TurnBase>();
     }
 
