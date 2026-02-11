@@ -3,17 +3,7 @@ using UnityEngine.UI;
 
 public class S_Player : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Button _AtkButton;
 
     public void ChangeTurn(Button changeInteraction)
     {
@@ -27,6 +17,19 @@ public class S_Player : MonoBehaviour
         else 
         {
             changeInteraction.interactable = true;
+            CanAttack();
+        }
+    }
+
+    public void CanAttack()
+    {
+        if (_AtkButton.interactable)
+        {
+            _AtkButton.interactable = false;
+        }
+        else
+        {
+            _AtkButton.interactable = true;
         }
     }
 }
