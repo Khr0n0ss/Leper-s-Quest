@@ -2,6 +2,13 @@
 using UnityEngine;
 public class Clickable : MonoBehaviour
 {
+    public ScriptableObject self;
+
+    void Start()
+    {
+        
+    }
+
     //Agrandie lorsque souris dessus
     void OnMouseEnter()
     {
