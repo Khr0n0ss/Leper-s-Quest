@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Membre", menuName = "Scriptable Objects/Membre")]
-public class Membre_Script : ScriptableObject
+public class Membre_Stat : ScriptableObject
 {
     public string MembreName;
     public string Description;
